@@ -24,6 +24,7 @@ body {
     max-width: 600px;
     margin: auto;
     padding-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .link {
@@ -85,11 +86,13 @@ hr {
 
     font-size: 1.2rem;
     font-weight: bold;
+    font-size: x-large;
 }
 
 .nav-pills {
 
     text-align: right;
+    font-size: large;
 }
 
 
@@ -103,9 +106,10 @@ hr {
 
 .header-img {
 
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
     display: block;
+    padding-top: 3rem;
     
 }
 
@@ -131,9 +135,14 @@ section h1 {
     text-align: center;
 }
 
+section h2 {
+
+    font-size: 2rem;
+}
+
 .ow {
 
-    background-color: var(--light-pink);
+    background-color: var(--off-white);
 }
 
 .footer {
@@ -155,4 +164,40 @@ section h1 {
     font-size: large;
     font-weight: bold;
     
+}
+
+.projects-img {
+
+    max-width: 300px;
+    margin: auto;
+    display: block;
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+
+.projects-heading {
+
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 2rem;
+        
+}
+
+.blogs-img {
+
+    max-width: 250px;
+    margin: auto;
+    display: block;
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+
+.blogs-heading {
+
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 2rem;
+        
 }
