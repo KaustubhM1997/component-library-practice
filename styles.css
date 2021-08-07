@@ -70,10 +70,16 @@ body {
 }
 
 
-hr {
+.second-app {
+
+    display: block;
+    margin-top: 2rem;
+}
+
+/* hr {
 
     margin: 2rem 0rem;
-}
+} */
 
 .list-non-bullet {
 
