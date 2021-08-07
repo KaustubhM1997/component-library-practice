@@ -5,6 +5,7 @@
     --primary-color: #10B981;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
+    --background-color: #065F46;
 }
 
 
@@ -43,6 +44,11 @@ body {
 
 }
 
+.link-primary:hover {
+
+    background-color: var(--background-color);
+}
+
 .link-secondary {
 
     color: var(--primary-color);
@@ -50,6 +56,11 @@ body {
     padding: 0.5rem;
     border-radius: 0.5rem;
 
+}
+
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .link-active {
