@@ -106,9 +106,9 @@ body {
 
 .navigation .nav-brand {
 
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 
 .navigation .nav-pills {
@@ -183,7 +183,7 @@ section h2 {
 
 .footer-header {
 
-    font-size: large;
+    font-size: 1.2rem;
     font-weight: bold;
     padding-bottom: 1rem;
 
