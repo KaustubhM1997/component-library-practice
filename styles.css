@@ -5,6 +5,7 @@
     --primary-color: #10B981;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
+    --background-color: #065F46;
 }
 
 
@@ -34,6 +35,10 @@ body {
     color: white;
 }
 
+/* .link:hover{
+    font-weight: bold;
+} */
+
 .link-primary {
 
     background-color: var(--primary-color);
@@ -41,6 +46,11 @@ body {
     border-radius: 0.5rem;
     color: white;
 
+}
+
+.link-primary:hover {
+
+    background-color: var(--background-color);
 }
 
 .link-secondary {
@@ -52,6 +62,11 @@ body {
 
 }
 
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
 .link-active {
 
     font-weight: bold;
@@ -59,10 +74,16 @@ body {
 }
 
 
-hr {
+.second-app {
+
+    display: block;
+    margin-top: 2rem;
+}
+
+/* hr {
 
     margin: 2rem 0rem;
-}
+} */
 
 .list-non-bullet {
 
