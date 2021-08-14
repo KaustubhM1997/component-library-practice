@@ -67,7 +67,7 @@ body {
     color: white;
 }
 
-.link-active {
+.navigation .link-active {
 
     font-weight: bold;
 
@@ -104,14 +104,14 @@ body {
     color: white;
 }
 
-.nav-brand {
+.navigation .nav-brand {
 
     font-size: 1rem;
     font-weight: bold;
     font-size: x-large;
 }
 
-.nav-pills {
+.navigation .nav-pills {
 
     text-align: right;
     font-size: large;
